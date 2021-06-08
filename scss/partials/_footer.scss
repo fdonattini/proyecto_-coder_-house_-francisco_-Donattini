@@ -1,0 +1,22 @@
+.footer{
+        border-top: black solid 10px;
+      
+      .footer-columna{
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      #contacto{
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Lobster', cursive;
+        padding-bottom: 4%;
+        padding-top: 30px;
+      }
+      .footer-info p, .footer-mapa p{
+        padding: 2%;
+        margin: 2%;
+        font-family: 'Pacifico', cursive;
+            
+      }
+}

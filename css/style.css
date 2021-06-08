@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  background-image: url("../img/comida encabezado.jpg");
+  padding: 2%;
+}
+.header .navegador h1 {
+  color: antiquewhite;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 30px 50px;
+}
+.header .menu ul {
+  position: absolute;
+  display: none;
+}
+.header .menu li:hover ul {
+  display: block;
+}
+.header .menu ul li {
+  display: block;
+}
+.header .menu .menu-lista a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Anton", sans-serif;
+}
+
+.domicilio h2 {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
+
+.titulo-instalaciones {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Lobster", cursive;
+  padding: 40px 50px;
+  text-decoration: underline;
+}
+
+.parrafo_especial {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Pacifico", cursive;
+}
+
+#conocenos h3 {
+  font-family: "Lobster", cursive;
+  font-size: 10rem;
+  text-align: left;
+  padding-left: 20%;
+}
+#conocenos .img-nuestra-historia {
+  position: relative;
+  bottom: 200px;
+  left: 550px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#conocenos .nosotros h3 {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  position: relative;
+  bottom: 190px;
+  left: 200px;
+}
+#conocenos .img_nosotros {
+  position: relative;
+  left: 1000px;
+  bottom: 200px;
+}
+#conocenos .nosotros_parrafo p {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Pacifico", cursive;
+  padding-right: 40%;
+  padding-left: 10%;
+  position: relative;
+  bottom: 480px;
+  left: 150px;
+}
+#conocenos .nosotros_parrafo iframe {
+  position: relative;
+  bottom: 300px;
+  left: 400px;
+  padding: 10px;
+}
+#conocenos .nuestro_compromiso h4 {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+  color: black;
+}
+#conocenos .nuestro_compromiso_parrafo p {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Pacifico", cursive;
+  padding-left: 30%;
+  padding-right: 6%;
+  position: relative;
+  bottom: 600px;
+  left: 30px;
+}
+#conocenos .img_mozo {
+  padding-bottom: 250px;
+  padding-left: 40px;
+}
+#conocenos .img_transition {
+  display: inline-block;
+}
+#conocenos .img_transition:hover img {
+  transform: scale(1.5);
+  transition: all 1s;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.titulo_sugerencias h4, .titulo_menu, #reservas, .titulo_especial {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.imagenplato1 {
+  width: 600px;
+  height: 415px;
+  margin: 30px;
+  background-image: url("../img/imagenplato1.jpg");
+}
+
+.imagenplato2 {
+  width: 600px;
+  height: 415px;
+  margin: 30px;
+  background-image: url("../img/imagenplato2.jpg");
+  background-size: cover;
+}
+
+.imagenplato3 {
+  width: 600px;
+  height: 415px;
+  margin: 30px;
+  background-image: url("../img/imagenplato3.jpg");
+}
+
+.imagenplato4 {
+  width: 600px;
+  height: 415px;
+  margin: 30px;
+  background-image: url("../img/imagenplato4.jpg");
+}
+
+div.infoplato1, div.infoplato2, div.infoplato3, div.infoplato4 {
+  position: absolute;
+  width: 600px;
+  height: 415px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+}
+
+div.imagenplato1:hover div.infoplato1, div.imagenplato2:hover div.infoplato2,
+div.imagenplato3:hover div.infoplato3, div.imagenplato4:hover div.infoplato4 {
+  opacity: 1;
+}
+
+.platos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p.headlineplato1, p.headlineplato2, p.headlineplato3, p.headlineplato4 {
+  position: absolute;
+  margin-top: 20px;
+  transition: margin 1s;
+  margin-left: -70px;
+  font-size: 21px;
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+
+div.imagenplato1:hover p.headlineplato1, div.imagenplato2:hover p.headlineplato2,
+div.imagenplato3:hover p.headlineplato3, div.imagenplato4:hover p.headlineplato4 {
+  margin-left: 70px;
+}
+
+.titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-bottom: 50px;
+  color: black;
+  text-decoration: underline;
+}
+
+.card-body, .paragraft-container {
+  font-family: "Pacifico", cursive;
+}
+
+.footer {
+  border-top: black solid 10px;
+}
+.footer .footer-columna {
+  display: flex;
+  justify-content: space-around;
+}
+.footer #contacto {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+  padding-bottom: 4%;
+  padding-top: 30px;
+}
+.footer .footer-info p, .footer .footer-mapa p {
+  padding: 2%;
+  margin: 2%;
+  font-family: "Pacifico", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */
