@@ -1,52 +1,16 @@
 .header{
-    background-image: url("../img/comida\ encabezado.jpg");
-    padding:2%;
-    
-    .navegador h1{
+    padding: 0;
+
+    .navbar-brand{
         color: antiquewhite;
-        font-size: 3rem;
-        text-align: center;
-        font-family: 'Lobster', cursive; 
+         font-size: 1.5rem;
+         text-align: center;
+        font-family: 'Lobster', cursive;
     }
 
-    .menu{
-
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        margin:30px 50px;
-
-        ul{
-            position: absolute;
-            display: none;
-        }
-        li{
-            &:hover ul{
-                display: block;
-            }
-        }
-
-        ul li{
-            display: block;
-
-           
-        }
-
-        .menu-lista{
-
-            a{
-                list-style: none;
-                text-decoration: none;
-                color:black;
-                font-size:1.5rem;
-                font-family: 'Anton', sans-serif;
-
-            }
+    .nav-item a{
+        font-family: 'Bona Nova', serif;
+        font-size: 1.0rem;
 
         }
-
-
-    }
-
-
 }

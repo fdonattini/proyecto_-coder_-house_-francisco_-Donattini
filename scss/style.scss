@@ -26,80 +26,12 @@
   font-family: 'Pacifico', cursive;
   
 }
-@import"partials/conocenos";
+@import"partials/nuestra_historia";
 
-@mixin titulo() {
-  font-size:4rem;
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  padding-bottom: 50px;
-  color: black;
-}
 
-.titulo_sugerencias h4, .titulo_menu, #reservas, .titulo_especial {
-  @include titulo()
-}
-
-@mixin imagenplato($numero) {
-  width: 600px;
-  height: 415px;
-  margin: 30px;
-  background-image: url("../img/imagenplato#{$numero}.jpg");
-}
-
-.imagenplato1 {
-  @include imagenplato(1);
-}
-
-.imagenplato2 {
-  @include imagenplato(2);
-  background-size:cover;
-}
-
-.imagenplato3 {
-  @include imagenplato(3);
-}
-
-.imagenplato4 {
-  @include imagenplato(4);
-}
-
-div.infoplato1, div.infoplato2, div.infoplato3, div.infoplato4{
-  position: absolute;
-  width: 600px;
-  height: 415px;
-  background-color: rgba(31, 31, 31, 0.9);
-  opacity: 0;
-  -webkit-transition: opacity 1s;
-}
-
-div.imagenplato1:hover div.infoplato1, div.imagenplato2:hover div.infoplato2, 
-div.imagenplato3:hover div.infoplato3, div.imagenplato4:hover div.infoplato4{
-  opacity: 1;
-}
-
-.platos{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-p.headlineplato1,  p.headlineplato2,  p.headlineplato3,  p.headlineplato4{
-  position: absolute;
-  margin-top: 20px;
-  transition: margin 1s;
-  margin-left: -70px;
-  font-size: 21px;
-  color: white;
-  font-family: 'Pacifico', cursive;
-}
-div.imagenplato1:hover p.headlineplato1, div.imagenplato2:hover p.headlineplato2,  
-div.imagenplato3:hover p.headlineplato3,  div.imagenplato4:hover p.headlineplato4{
-  margin-left: 70px;
-}
-
-.titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre{
+.titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu{
   font-size:2rem;
-  font-family: 'Lobster', cursive;
+  font-family:'Pacifico', cursive;
   text-align: center;
   padding-bottom: 50px;
   color: black;

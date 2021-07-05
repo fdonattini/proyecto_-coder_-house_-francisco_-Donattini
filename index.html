@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="style    sheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d40a9bbb84.js" crossorigin="anonymous"></script>
@@ -29,29 +29,44 @@ de originalidad en cada plato, en nuestra cocina de autor.">
 </head>
 <body>
   
-    <header class="header"> 
+    <header class="header sticky-top"> 
       <!-- barra navegadora  sticky para landing page -->
-        <nav class="navegador">
-            <h1> Passione per la Cucina</h1>
-            <ul class="menu">
-                <li class="menu-lista"> <a href="index.html">Home</a>
-                </li>
-                <li class="menu-lista"><a href="#menu">Menu</a>
-                <ul>
-                  <li class="menu-lista"> <a href="#sugerenciasdelasemana">Sugerencias</a>
-                 </li>
-                </ul>
-                </li>
-                <li class="menu-lista"><a href="#reservas">Reservas</a>
-                </li>
-                <li class="menu-lista"><a href="#conocenos">Conocenos</a></li>
-                <li class="menu-lista"><a href="#contacto">Donde Encontrarnos</a>
-               
-                </li>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Passione Per la Cucina</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conocenos">Nuestra Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conocenos">Reservas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Sugerencias</a></li>
 
+                </ul>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conocenos">Donde Encontrarnos</a>
+              </li>
             </ul>
-        </nav>
-        
+            
+          </div>
+        </div>
+      </nav>
+      
     </header>
 
     <section class="domicilio"> 
@@ -95,61 +110,7 @@ de originalidad en cada plato, en nuestra cocina de autor.">
    nuestros platos se preparan al momento, adaptándonos así a las necesidades de nuestros clientes.</p>
 
 </div>
-
-    </div>
-  
-
-      <section id="conocenos" >
-        <!-- titulo de quienes somos -->
-        <h3 class="nuestra">Nuestra
-        </h3>
-        <h3>Historia
-        </h3>
-       
-        <div class="img-nuestra-historia">
-            <img src="img/cocina.jpg" alt="imagen sobre nuestra historia" width="500" height="500">
-        </div>
-        <div class="nosotros">
-          <h3>Nosotros</h3>
-        </div>
-        <!-- imagen con transicion scale   -->
-        <div class="img_nosotros img_transition">
-          <img src="img/cocina1.jpg" alt=" imagen sobre nosotros mostrando un poco donde cocinamos" height="300" width="300">
-      </div>
-        <div class="nosotros_parrafo">
-          <!-- informacion sobre como surje el resto -->
-          <p> Passione per la Cucina surge de nuestra afición por los origenes italianos. 
-              Una combinación de Ingredientes de calidad y altos estándares es lo 
-              que nos diferencia de otros restaurantes del área.
-              Nuestra meta es satisfacer a cada uno de nuestros clientes 
-            </p>
-            <div>
-              <iframe width="560" height="320" src="https://www.youtube.com/embed/ENRN9MREd1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-               clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-  
-        </div>
-
-
-        <div class="nuestro_compromiso">
-          <h4>Nuestro compromiso</h4>
-        </div>
-       <!-- imagen con transicion scale -->
-        <div class="img_mozo img_transition">
-          <img src="img/mozo.jpg" alt="mozo entregando a nuestros clientes platos peruanos" width="300" height="400">  
-       </div>
-
-        <div class="nuestro_compromiso_parrafo">
-          <!-- informacion sobre lo que queremos provocar en nuestros clientes -->
-            <p>
-              Nuestra meta es dejar 100% satisfechos a nuestros clientes, brindándoles el mejor servicio y atención,
-               para lograr una experiencia Culinaria inolvidable y satisfactoria. 
-              Estamos entusiasmados por mejorar día con día y ver crecer nuestro proyecto.
-            </p>
-          
-        </div>
       
-    </section>
     <section>
       <h4 id="reservas">Reserva tu Lugar</h4>
        <!-- formulario de reserva para tener tu lugar en el resto -->
@@ -180,42 +141,98 @@ de originalidad en cada plato, en nuestra cocina de autor.">
 
     </section>
 
-    <div class="titulo_sugerencias" id="sugerenciasdelasemana">
-
-      <h4>Sugerencias de la semana</h4>
-    </div>
     <section>
-     <!-- sugerencias de la semana con hover donde aparece el nombre del plato de sugerencia -->
-      <div class="platos" >
-        <section class="plato">
-           <div class="imagenplato1">
-           <div class="infoplato1">
-          <p class="headlineplato1">Arroz con mariscos</p>
-        </div>
-        </section>
+      <div class="row">
+         <h4 class="nuestra_historia ">
+        Nuestra historia
+      </h4>
+      <p class="contenido_nuestra_historia col-xl-6 col-sm-8">Passione per la Cucina surge de nuestra afición por los origenes italianos. Una combinación de Ingredientes de calidad y altos estándares es lo que nos diferencia
+         de otros restaurantes del área. Nuestra meta es satisfacer a cada uno de nuestros clientes</p>
+        <img src="img/fondo-interior-tienda-restaurante-borrosa_1203-4031.jpg" class="col-xl-6 col-sm-8" alt="">
+      </div>
+      <div class="row">
+        <h4 class="nuestro_compromiso ">
+           Nuestro compromiso
+         </h4>
+         <img src="img/grupo-amigos-comiendo-restaurante_23-2148006646.jpg"  class="col-xl-6 col-sm-8" alt="">
+         <p class="contenido_nuestro_compromiso col-xl-6 col-sm-8">
+          Nuestra meta es dejar 100% satisfechos a nuestros clientes, brindándoles el mejor 
+          servicio y atención, para lograr una experiencia Culinaria inolvidable
+          y satisfactoria. Estamos entusiasmados por mejorar día con día y 
+          ver crecer nuestro proyecto.
+         </p>
+         
+     </div>
 
-        <section >
-          <div class="imagenplato2">
-            <div class="infoplato2">
-              <p class="headlineplato2"> Filet de cordero </p>
-            </div>
-        </section>
 
-    <section>
-       <div class="imagenplato3">
-            <div class="infoplato3">
-              <p class="headlineplato3"> Pechuga con Ensalada fresca </p>
-            </div>
+
+     
+         
+
+
     </section>
+ 
+    <h4>Sugerencias de La Semana</h4>
 
-         <section>
-           <div class="imagenplato4">
-              <div class="infoplato4">
-                <p class="headlineplato4"> Lasagna clasica con bolognesa </p>
-              </div>
-         </section>
-            
+    <div class="titulo_sugerencias d-flex flex-wrap justify-content-around" >
+ 
+
+      
+
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-xl-6">
+            <img src="img/imagenplato1.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title">Arroz con Mariscos</h5>
+              <p class="card-text">arroz, mariscos varios, queso, curry, legumbres </p>
+             </div>
+          </div>
         </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-xl-6">
+            <img src="img/imagenplato4.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title"> Lasagna Clasica de Jamon y queso </h5>
+              <p class="card-text"> jamon , quesos varios, salsa bolognesa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-xl-6">
+            <img src="img/imagenplato2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title">Filet de cordero </h5>
+              <p class="card-text">Filet de Cordero asado, verduras asadas, dip salsas varias</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-xl-6">
+            <img src="img/imagenplato3.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title">Pechuga de pollo grillada</h5>
+              <p class="card-text">Pechuga de pollo grilada, ensalada  de verdes, tomate,aderezo de la casa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
         
         <h4 id="menu" class="titulo_menu">Menu</h4>
 
