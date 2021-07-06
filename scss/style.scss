@@ -42,6 +42,14 @@
   font-family: 'Pacifico', cursive;
 }
 
+.img-fluid, .img_1 {
+ transition: all .2s ease-in-out;
+ }
+ .img-fluid:hover
+  { transform: scale(1.1);
+   }
+
+
 .footer{
   border-top: black solid 10px;
 }
