@@ -11,9 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-.header {
-  padding: 0;
-}
 .header .navbar-brand {
   color: antiquewhite;
   font-size: 2rem;
@@ -70,26 +67,6 @@ body {
 }
 
 .card-body, .paragraft-container {
-  font-family: "Pacifico", cursive;
-}
-
-.footer {
-  border-top: black solid 10px;
-}
-.footer .footer-columna {
-  display: flex;
-  justify-content: space-around;
-}
-.footer #contacto {
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Lobster", cursive;
-  padding-bottom: 4%;
-  padding-top: 30px;
-}
-.footer .footer-info p, .footer .footer-mapa p {
-  padding: 2%;
-  margin: 2%;
   font-family: "Pacifico", cursive;
 }
 
