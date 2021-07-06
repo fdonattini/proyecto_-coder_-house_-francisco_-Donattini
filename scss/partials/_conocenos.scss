@@ -1,0 +1,95 @@
+$font-color:black;
+$font-type: 'Lobster', cursive;
+
+#conocenos{
+
+    h3{
+        font-family: $font-type;
+        font-size: 10rem;
+        text-align: left;
+        padding-left:20%;
+    }
+    .img-nuestra-historia{
+        position: relative;
+        bottom: 200px ;
+        left: 550px;
+        z-index:-1;
+        opacity: 0.5;
+        
+        
+      }
+      .nosotros h3{
+        font-size:5rem;
+        font-family: $font-type;
+        position: relative;
+        bottom: 190px;
+        left: 200px;
+      }
+      .img_nosotros {
+        position: relative;
+        left: 1000px;
+        bottom: 200px;
+      }
+      .nosotros_parrafo {
+        p{
+        font-size: 1.5rem;
+        color:$font-color;
+        font-family: 'Pacifico', cursive;
+        padding-right: 40%;
+        padding-left: 10%;
+        position: relative;
+        bottom: 480px;
+        left: 150px;
+        
+      }
+      iframe{
+        position: relative;
+        bottom: 300px;
+        left: 400px;
+        padding: 10px;
+
+        
+      
+
+      }
+    }
+      
+
+      
+      .nuestro_compromiso h4{
+        font-size:4rem;
+        font-family: $font-type;
+        position: relative;
+        bottom: 300px;
+        left: 300px;
+        color:$font-color;
+      
+      }
+      .nuestro_compromiso_parrafo p{
+        font-size: 1.5rem;
+        color: $font-color;
+        font-family: 'Pacifico', cursive;
+        padding-left: 30%;
+        padding-right: 6%;
+        position: relative;
+        bottom: 600px;
+        left: 30px;
+      }
+      
+      .img_mozo {
+        padding-bottom: 250px;
+        padding-left: 40px;
+      }
+      
+      .img_transition {
+        display: inline-block;
+      }
+      
+      .img_transition:hover img {
+        transform: scale(1.5);
+        transition: all 1.0s;
+        z-index: -1;
+        opacity: 0.5;
+      }
+     
+}

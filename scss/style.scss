@@ -29,7 +29,7 @@
 @import"partials/nuestra_historia";
 
 
- #reservas, .titulo_sugerencias, .titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu{
+ #reservas,#contacto, .titulo_sugerencias, .titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu{
   font-size:2rem;
   font-family:'Pacifico', cursive;
   text-align: center;
@@ -42,5 +42,27 @@
   font-family: 'Pacifico', cursive;
 }
 
+.footer{
+  border-top: black solid 10px;
+}
+
+.whats-app {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 3px 4px 3px #999;
+  left: 15px;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 10px;
+}
 
 @import"partials/404";
