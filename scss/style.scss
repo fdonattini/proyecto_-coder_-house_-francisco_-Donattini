@@ -29,13 +29,14 @@
 @import"partials/nuestra_historia";
 
 
-.titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu{
+ #reservas, .titulo_sugerencias, .titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu{
   font-size:2rem;
   font-family:'Pacifico', cursive;
   text-align: center;
   padding-bottom: 50px;
   color: black;
   text-decoration: underline;
+  margin: 4%;
 }
 .card-body,  .paragraft-container{
   font-family: 'Pacifico', cursive;

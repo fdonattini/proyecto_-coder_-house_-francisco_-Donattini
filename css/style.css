@@ -51,6 +51,7 @@ body {
 .nuestra_historia, .nuestro_compromiso {
   font-size: 2rem;
   font-family: "Pacifico", cursive;
+  margin-bottom: 5%;
 }
 
 .contenido_nuestra_historia, .contenido_nuestro_compromiso {
@@ -58,13 +59,14 @@ body {
   font-family: "Pacifico", cursive;
 }
 
-.titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu {
+#reservas, .titulo_sugerencias, .titulo_pastas, .titulo_carnes, .titulo_mexicana, .titulo_oriental, .titulo_postre, .titulo_menu {
   font-size: 2rem;
   font-family: "Pacifico", cursive;
   text-align: center;
   padding-bottom: 50px;
   color: black;
   text-decoration: underline;
+  margin: 4%;
 }
 
 .card-body, .paragraft-container {
